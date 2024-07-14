@@ -3,11 +3,14 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Plus Jakarta Sans';
+  justify-content: center;
 }
 
 .header{
   border-bottom: 1px solid rgba(223, 223, 224, 1);
   padding-bottom: 30px;
+  margin-bottom: 50px;
+  margin-top: 15px;
 }
 
 .container{
@@ -76,4 +79,147 @@
   line-height: 20.16px;
   text-align: left;
   color: rgba(68, 117, 242, 1);
+}
+
+.navigation__container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation__container #form{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+#form select{
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.64px;
+  text-align: left;
+  color: rgba(154, 158, 166, 1);
+}
+
+nav{
+  margin-bottom: 70px;
+}
+
+.trash-and-contact{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.trash-and-contact #button{
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ababab;
+  border: none;
+  background-color: rgba(68, 117, 242, 1);
+  color: #fff;
+  border-radius: 50%;
+  outline: none;
+}
+
+#btn{
+  display: flex;
+  align-items: center;
+  background-color: rgba(227, 235, 253, 1);
+  color: rgba(68, 117, 242, 1);
+  outline: none;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.section{
+  position: relative;
+}
+
+.section__container{
+  display: flex;
+  gap: 50px;
+  max-width: 1200px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-picture img{
+  position: absolute;
+  top: 20px;
+  left: 600px;
+}
+
+.text-info h1{
+  width: 600px;
+  margin-top: 70px;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 89px;
+  letter-spacing: -0.04em;
+}
+
+.text-info p{
+  width: 490px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.text-info span{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  gap: 30px;
+  width: 700px;
+  left: 0px;
+}
+
+.text-info #button-second{
+  background: rgba(68, 117, 242, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  position: absolute;
+  left: 0px;
+  font-weight: 700;
+  line-height: 20.16px;
+  text-align: center;
+}
+
+.text-info #btn-two{
+  width: 50px;
+  position: absolute;
+  left: 200px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.text-info span p{
+  position: absolute;
+  left: 260px;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 21.42px;
+  text-align: left;
+  color: rgba(104, 109, 119, 1);
+}
+
+.company-brends span{
+  display: flex;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.images{
+  display: flex;
+  
 }
